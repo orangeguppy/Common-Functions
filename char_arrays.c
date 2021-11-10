@@ -33,7 +33,7 @@ void remove_all_chars_in_string(char array[], char to_remove) {
 void remove_from_start_to_end(char array[], int start, int end) {
     for (int i = start ; i < end + 1 ; i++) {
         for (int j = start ; j < strlen(array) ; j++) {
-        array[j] = array[j + 1];
+            array[j] = array[j + 1];
         }
     }
 }
